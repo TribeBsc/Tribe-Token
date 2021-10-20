@@ -1,2 +1,3 @@
 # Tribe-Token
-Token for tribe proyect
+
+Core contract repo for tribe token
