@@ -53,10 +53,6 @@ async function main() {
 
   logger.debug(`Deployed contract to ${instance.address}`);
 
-  const ozUpgradesManifestClient = await Manifest.forNetwork(network.provider);
-  const manifest = await ozUpgradesManifestClient.read();
-
-
   const deploymentData: UpgradableDeployedContract = {
     isUpgradable: true,
     instance,
